@@ -289,3 +289,16 @@ footer div h4 {
 /*========================================--*/	
 /*--CIERRE FOOTER--*/
 /*========================================--*/	
+/*--PAGE PRODUCT LIST--*/
+/*========================================--*/
+
+.card {
+	border-radius: 5%;
+	background-color: #fdfdeb;
+}
+
+@media only screen and (max-width: 768px){
+	.cardSpace {
+		margin-bottom: 5%;
+	}
+}
