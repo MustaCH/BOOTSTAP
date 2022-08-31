@@ -3,87 +3,141 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="../css/estilo.css">
 	<title>GAIA - Quienes somos?</title>
 </head>
-<body class="gridContainerQuienesSomos">
-	<!--inicio header-->
-	<header>
-		<div>
-			<a href="#"><img src="../assets/img/logo-gaia.png" alt="logo gaia"></a>
+<body>
+	<!--========================================-->
+	<!--NAVBAR-->
+	<!--========================================-->
+	<div class="container-fluid">
+		<div class="row">
+			<nav class="navbar navbar-expand-lg navbar-light">
+			  <div class="col-6 col-lg-6">
+			    <a class="navbar-brand" href="#"><img src="../assets/img/logo-gaia.png" class="logo-nav" alt=""></a>
+			</div>    
+			<div class="col-6 col-lg-6">
+				<div class="d-flex justify-content-end">
+				    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				      <span class="navbar-toggler-icon"></span>
+				    </button>
+			    </div>
+			   		<div class="collapse navbar-collapse text-end" id="navbarNav">
+			      		<ul class="navbar-nav">
+			        		<li class="nav-item">
+			          			<a class="nav-link active text-white" aria-current="page" href="../index.html">HOME</a>
+			        		</li>
+			        		<li class="nav-item">
+			         			<a class="nav-link text-white" href="productos/productos.html">PRODUCTOS</a>
+			        		</li>
+			        		<li class="nav-item">
+			         			<a class="nav-link text-white" href="#">QUIENES SOMOS?</a>
+			        		</li>
+			      		  	<li class="nav-item">
+			          			<a class="nav-link text-white" href="contacto.html">CONTACTO</a>
+			        		</li>
+			     		</ul>
+			    	</div>
+			  	</div>
+			  </div>
+			</nav>
 		</div>
-			<nav>	
-				<ul>
-					<li>
-						<a href="../index.html">HOME</a>
-					</li>
-					<li>
-						<a href="productos/productos.html">PRODUCTOS</a></li>
-					<li>
-						<a href="#">QUIENES SOMOS?</a>
-					</li>
-					<li>
-						<a href="contacto.html">CONTACTO</a>
-					</li>
-				</ul>
-			</nav>		
-	</header>
-	<!--cierre header-->
-	<!--inicio main-->
-		<main class="introSeccion">
-			<h1>QUIENES SOMOS?...</h1>
-			<p>Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Beatae harum in adipisci vitae inventore eos deserunt culpa quidem et eveniet eligendi eius ratione voluptatibus aspernatur, aperiam rem provident voluptas laudantium. Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Animi id reiciendis nihil perferendis excepturi ducimus nam ab at recusandae, consequuntur, sunt, blanditiis repudiandae porro nostrum, voluptas possimus laborum. Iusto, voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eveniet dolore quo, in aspernatur pariatur architecto alias. Alias harum maxime beatae laborum perferendis quaerat, sed quod facere hic saepe quia.</p>
-		</main>
-		<article class="presDany">
-			<h2>DANY</h2>
-			<p>Ella es energía en movimiento, le
-               encanta llevar luz a cada uno de
-               los productos, amante de las
-               piedras, se encarga de buscar las
-               mejores y recomendarle a cada
-               uno según lo que sienta, arma los
-               aros, anillos y colgantes con todo
-               el amor, dedicación y paciencia.</p>
-		</article>
-		<article class="presMarian">
-			<h2>MARIAN</h2>
-			<p>Ella es la alquimista, la que con
-               sus conocimientos nos brinda
-               las mejores combinaciones de
-               esencias, hierbas y aromas que
-               hacen que nuestros productos
-               de Cosmética se destaquen.
-               Amante de la conjunción del ser
-               como un todo indivisible, busca
-               aportar autocuidado en cada
-               uno de sus aspectos.</p>
-		</article>
-		<section class="video">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/WiITmnLvu84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		<div class="videoTexto">	
-			<h2>LO QUE NOS MOTIVA...</h2>	
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis fugiat maiores perferendis dicta quaerat qui eveniet quo mollitia reiciendis at totam iure consequatur accusantium aspernatur hic ullam, aliquid, est sapiente. Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Voluptatibus earum iusto minus consectetur harum nobis et eius blanditiis reprehenderit eligendi at doloremque sed, vitae dolores laboriosam veniam quod ratione a. Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Consequuntur, saepe, qui. Ad vel tempore molestias iure incidunt corrupti illum nobis ducimus tempora quisquam! Quos, fugiat? Impedit ab rerum sint harum.
-			</p>
-		</div>
-		</section>
-	<!--cierre main-->
-	<!--inicio footer-->
-	<footer class="footerIzqQS footerMobileQS">
-		<img src="../assets/img/logo-inf.png" alt="logo inferior">
-		<p><a href="">FAQ's</a></p>
-		<p><a href="">Privacy policy</a></p>
-	</footer>
-	<div class="footerDerQS footerMobileQS">
-		<a href="https://api.whatsapp.com/" target="_blank"><img class="wpp--mid" src="../assets/img/wpp-inf.png" alt="whatsapp"></a>
-		<a class="ig--mid" href="https://www.instagram.com/gaia.centroholistico/" target="_blank"><img src="../assets/img/ing-inf.png" alt="instagram"></a>
-		<a class="gmail--mid" href="https://www.google.com.ar/" target="_blank"><img src="../assets/img/gmail-inf.png" alt="gmail"></a>
-		<p>
-			tiendagaialuzdelalma@gmail.com <br>
-			Tel.: 11 5482 5486 <br>
-			Cel.: 11 6884 2154 <br>
-		</p>
 	</div>
-	<!-- cierre footer-->
+	<!--======================================-->
+	<!-- CIERRE NAVBAR -->
+	<!--======================================-->
+	<!--INTRODUCCION-->
+	<!--======================================-->
+	<main class="d-flex flex-column align-items-center mt-5 mb-5">
+		<h1 class="text-white" data-aos="fade-up" data-aos-duration="2000">QUIENES SOMOS?...</h1>
+			<p class="text-white text-center quienesIntroP" data-aos="fade-up" data-aos-duration="3000">Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Beatae harum in adipisci vitae inventore eos deserunt culpa quidem et eveniet eligendi eius ratione voluptatibus aspernatur, aperiam rem provident voluptas laudantium. Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Animi id reiciendis nihil perferendis excepturi ducimus nam ab at recusandae, consequuntur, sunt, blanditiis repudiandae porro nostrum, voluptas possimus laborum. Iusto, voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eveniet dolore quo, in aspernatur pariatur architecto alias. Alias harum maxime beatae laborum perferendis quaerat, sed quod facere hic saepe quia.</p>
+	</main>
+	<!--======================================-->
+	<!--CIERRE INTRODUCCION-->
+	<!--======================================-->
+	<!--PRESENTACIONES-->
+	<!--======================================-->
+		<article class="container d-flex justify-content-center">
+			<div class="row presRowD mt-5 mb-5">
+				<div class="col-12 col-lg-12 d-flex flex-column align-items-center mt-5 mb-5">
+					<h2 data-aos="fade-up" data-aos-duration="2000">DANY</h2>
+					<p class="text-center" data-aos="fade-up" data-aos-duration="3000">Ella es energía en movimiento, le
+		               encanta llevar luz a cada uno de
+		               los productos, amante de las
+		               piedras, se encarga de buscar las
+		               mejores y recomendarle a cada
+		               uno según lo que sienta, arma los
+		               aros, anillos y colgantes con todo
+		               el amor, dedicación y paciencia.</p>
+               	</div>
+              </div>
+		</article>
+		<article class="container d-flex justify-content-center">
+			<div class="row presRowM mt-5 mb-5">
+				<div class="col-12 col-lg-12 d-flex flex-column align-items-center mt-5 mb-5">
+					<h2 data-aos="fade-up" data-aos-duration="2000">MARIAN</h2>
+					<p class="text-center" data-aos="fade-up" data-aos-duration="3000">Ella es la alquimista, la que con
+		               sus conocimientos nos brinda
+		               las mejores combinaciones de
+		               esencias, hierbas y aromas que
+		               hacen que nuestros productos
+		               de Cosmética se destaquen.
+		               Amante de la conjunción del ser
+		               como un todo indivisible, busca
+		               aportar autocuidado en cada
+		               uno de sus aspectos.</p>
+               	</div>
+              </div>
+		</article>
+	<!--======================================-->
+	<!--CIERRE PRESENTACIONES-->
+	<!--======================================-->
+	<!--VIDEO Y TEXTO-->
+	<!--======================================-->
+		<section class="container contVideoText mb-5">
+			<div class="row rowVideoText">
+				<div class="video col-12 col-lg-6">
+					<iframe data-aos="fade-up" data-aos-duration="2000" width="560" height="315" src="https://www.youtube.com/embed/WiITmnLvu84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<div class="col-12 col-lg-6 textVideo mt-4 mb-4">
+					<h2 class="text-white" data-aos="fade-up" data-aos-duration="2000">LO QUE NOS MOTIVA...</h2>	
+					<p class="text-white" data-aos="fade-up" data-aos-duration="2000">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis fugiat maiores perferendis dicta quaerat qui eveniet quo mollitia reiciendis at totam iure consequatur accusantium aspernatur hic ullam, aliquid, est sapiente. Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Voluptatibus earum iusto minus consectetur harum nobis et eius blanditiis reprehenderit eligendi at doloremque sed, vitae dolores laboriosam veniam quod ratione a. Lorem 
+					</p>
+				</div>	
+			</div>
+		</section>
+	<!--======================================-->
+	<!--CIERREVIDEO Y TEXTO-->
+	<!--======================================-->
+	<!--FOOTER-->
+	<!--======================================-->
+	<footer class="container-fluid">
+		<div class="row">
+			<div class="col-6 col-lg-6 d-flex flex-column">
+				<img src="../assets/img/logo-inf.png" class="logo-gaia mt-2" alt="">
+				<h4>FAQ's</h4>
+				<h4>Legales</h4>
+			</div>
+			<div class="col-6 col-lg-6 d-flex flex-column align-items-end text-end">
+				<a class="wpp-inf m-2 mt-4" href="https://api.whatsapp.com/" target="_blank"><img src="../assets/img/wpp-inf.png" alt=""></a>
+				<a class="ing-inf m-2" href="https://www.instagram.com/gaia.centroholistico/" target="_blank"><img src="../assets/img/ing-inf.png" alt=""></a>
+				<a class="gmail-inf m-2" href="https://www.google.com.ar/" target="_blank"><img src="../assets/img/gmail-inf.png"alt=""></a>
+				<p>tiendagaialuzdelalma@gmail.com</p>
+				<p>Tel.: 11 5482 5486</p>
+				<p>Cel.: 11 6884 2154</p>
+			</div>
+		</div>
+	</footer>
+	<!--======================================-->
+	<!--FOOTER-->
+	<!--======================================-->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+  		AOS.init();
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

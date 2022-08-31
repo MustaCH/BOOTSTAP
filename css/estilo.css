@@ -1,3 +1,8 @@
+/*==========================================--*/
+/*--ESTILOS GENERALES--*
+/*==========================================--*/
+
+
 body {
 	background-image: url(../assets/img/fondo.jpg);
 }
@@ -15,7 +20,19 @@ h1,h2,h3,h3 {
 	font-weight: bold;
 }
 
-/*========================================*/
+h1 a {
+	text-decoration: none;
+	color: white;
+}
+
+.btn {
+	font-family: Questrial;
+	font-weight: bold;
+}
+
+/*==========================================--*/
+/*--CIERRE ESTILOS GENERALES--*
+/*==========================================--*/
 /*--NAVBAR--/*
 /*--========================================--*/
 
@@ -198,7 +215,7 @@ nav ul li:hover {
 /*--CONTACTO*/
 /*========================================--*/
 
-.contactTit h2 {
+.contactStyle h2 {
 	text-align: center;
 	color: #fdfdeb;
 	font-size: 1.5rem;
@@ -207,11 +224,11 @@ nav ul li:hover {
 	transition: all .5s;
 }
 
-.contactTit a {
+.contactStyle a {
 	text-decoration: none;
 }
 
-.contactTit h2:hover {
+#contactTit h2:hover {
 	transform: scale(1.1,1.1);
 	cursor: pointer;
 }
@@ -232,7 +249,7 @@ nav ul li:hover {
 }
 
 
-/*--======================================--*/
+/*========================================--*/
 /*--CIERRE CONTACTO*/
 /*========================================--*/	
 /*--FOOTER--*/
@@ -300,5 +317,169 @@ footer div h4 {
 @media only screen and (max-width: 768px){
 	.cardSpace {
 		margin-bottom: 5%;
+	}
+}
+
+/*========================================--*/	
+/*--CIERRE PAGE PRODUCT LIST--*/
+/*========================================--*/
+/*--SETTINGS PRODUCT PAGES--*/
+/*========================================--*/
+
+.imgProd {
+	width: 95%;
+}
+
+.btn {
+	width: 100%;
+}
+
+.prodDescrip {
+	background-color: white;
+	border-radius: 5%;
+	width: 95%;
+}
+
+@media only screen and (min-width: 1024px){
+
+#tituloGenProd {
+	margin: 5%;
+}
+
+.imgProd {
+	width: 40%;
+}
+
+form.formCompra {
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+.formCompra a.btn {
+	width: 20%;
+}
+
+.formCant {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.form-select {
+	width: 15%;
+}
+
+.prodDescrip {
+	width: 50%;
+}
+
+}
+
+/*========================================--*/
+/*--CIERRE SETTINGS PRODUCT PAGES--*/
+/*========================================--*/
+/*--PAGE QUIENES SOMOS--*/
+/*========================================--*/
+.quienesIntroP {
+	display: inline;
+}
+
+.presRowD {
+	background-color: #e6dead;
+	border-radius: 4%;
+	width: 95%;
+}
+
+.presRowM {
+	background-color: #e6dead;
+	border-radius: 4%;
+	width: 95%;
+}
+
+.video iframe {
+	width: 100%;
+	border-radius: 5%;
+}
+
+.textVideo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+@media only screen and (min-width: 1024px){
+.presRowD {
+	background-color: #e6dead;
+	border-radius: 4%;
+	width: 50%;
+}
+
+.presRowM {
+	background-color: #e6dead;
+	border-radius: 4%;
+	width: 50%;
+}
+
+.contVideoText {
+	display: flex;
+	justify-content: center;
+}
+
+.rowVideoText {
+	width: 50%;
+	background-color: #c5b475;
+	border-radius: 5%;
+}
+
+.video iframe {
+	width: 100%;
+	border-radius: 5%;
+}
+
+.video {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 10%;
+}
+}
+
+/*========================================--*/
+/*--CIERRE PAGE QUIENES SOMOS--*/
+/*========================================--*/
+/*--PAGE CONTACTO--*/
+/*========================================--*/
+.form-label,.form-control{
+	font-family: Questrial;
+	font-weight: bold;
+	color: white;
+}
+
+.form-check-label {
+	font-family: Questrial;
+	color: white;
+}
+
+.row-form {
+	width: 100%;
+}
+
+@media only screen and (min-width: 1024px){
+
+	.form-label,.form-control{
+		font-family: Questrial;
+		font-weight: bold;
+		color: white;
+		width: 100%;
+	}
+
+	.form-check-label {
+		font-family: Questrial;
+		color: white;
+	}
+
+
+	.row-form {
+		width: 35%;
 	}
 }
