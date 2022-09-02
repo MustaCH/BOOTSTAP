@@ -182,34 +182,43 @@ footer div h4 {
 /*--======================================--*/
 /*--CAROUSEL INDEX--*/
 /*--======================================--*/
-.productTit h2 {
+.productTit {
 	text-align: center;
 	font-weight: bold;
 }
 
-.productTit a {
+.text-white {
 	text-decoration: none;
 	transition: all;
 }
 
-.productTit a:hover {
+.text-white:hover {
 	transform: scale(1.1,1.1);
 }
 
+.productTit a {
+	text-decoration: none;
+	color: white;
+}
+
 @media only screen and (min-width: 1024px){
-	.productTit h2 {
+	.productTit {
 		text-align: center;
 		font-weight: bold;
 		margin-top: 3%;
 	}
 
-	.productTit a {
-	text-decoration: none;
-	transition: all .5s;
+	.text-white {
+		transition: all .5s;
 	}
 
-	.productTit a:hover {
-	transform: scale(1.1,1.1);
+	.text-white:hover {
+		transform: scale(1.1,1.1);
+	}
+
+	.productTit a {
+		text-decoration: none;
+		color: white;
 	}
 
 	.carousel-product {
@@ -240,7 +249,7 @@ footer div h4 {
 		text-align: center;
 	}
 
-	.titAnchor {
+	.quienes-text a {
 		text-decoration: none;
 		color: black;
 	}
@@ -267,14 +276,16 @@ footer div h4 {
 		padding: 3% 1% 3% 5%;
 	}
 
-	.quienes-text a {
-		text-decoration: none;
-		color: black;
+	.quienes-text h2 {
 		transition: all .5s;
 	}
 
-	.quienes-text a:hover {
+	.quienes-text h2:hover {
 		transform: scale(1.1,1.1);
+	}
+
+	.quienes-text a {
+		text-decoration: none;
 		color: black;
 	}
 
