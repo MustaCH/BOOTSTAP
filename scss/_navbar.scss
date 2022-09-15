@@ -1,0 +1,41 @@
+.navbar {
+	background-color: $color-hard;
+	.logo-nav {
+		width: 35%;
+	}
+	.navbar-nav {
+		li {
+			a {
+		font-family: map-get($estilo, fuente);
+		font-weight: bold;
+		}
+	}
+	.navbar-toggler {
+	color: white;
+	}
+	nav ul li {
+	transition: all .5s;
+		&:hover {
+			transform: scale(1.1,1.1);
+		}
+	}
+}
+
+@media only screen and (min-width: 1024px){
+	.navbar {
+		padding: 0%;
+			#navbarNav {
+			display: flex;
+			justify-content: flex-end;
+			padding: 10% 40% 0% 0%;
+		}
+			.navbar-brand {
+			padding-left: 40%;
+			margin: 0%;
+		}
+			.logo-nav {
+			width: 12.5%;
+		}	
+	}
+}
+}
