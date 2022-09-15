@@ -1,0 +1,23 @@
+{
+  "name": "gaia--garciapoletti--bst---sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MustaCH/BOOTSTAP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MustaCH/BOOTSTAP/issues"
+  },
+  "homepage": "https://github.com/MustaCH/BOOTSTAP#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.19"
+  }
+}
