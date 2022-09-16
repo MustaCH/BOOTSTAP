@@ -44,6 +44,7 @@
 		display: flex;
 		justify-content: center;
 		.rowVideoText {
+			align-items: center;
 			width: 50%;
 			background-color: #c5b475;
 			border-radius: map-get($estilo, border-desk);
