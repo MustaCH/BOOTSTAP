@@ -1,0 +1,46 @@
+.imgProd {
+	width: 95%;
+}
+
+.btn {
+	width: 100%;
+}
+
+.prodDescrip {
+	background-color: $color-light;
+	border-radius: 5%;
+	width: 95%;
+}
+
+@media only screen and (min-width: 1024px){
+
+	#tituloGenProd {
+		margin: 5%;
+	}
+
+	.imgProd {
+		width: 40%;
+	}
+
+	.formCompra {
+		display: flex;
+		justify-content: flex-end;
+		a {
+			width: 20%;
+		}
+	}
+
+	.formCant {
+		display: flex;
+		justify-content: flex-start;
+		.form-select {
+			width: 15%;
+		}
+	}
+
+	.prodDescrip {
+		width: 50%;
+		background-color: $color-light;
+	}
+
+}

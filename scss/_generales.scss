@@ -1,4 +1,81 @@
 $estilo: (
 	fuente: Questrial,
 	f-weight: bolder,
-)
+	border-desk: 1em,
+);
+
+body {
+	background-image: url(../assets/img/fondo.jpg);
+}
+
+.img {
+	border-radius: map-get($estilo, border-desk);
+}
+
+h1,h2,h3,h3,p {
+	font-family: map-get($estilo, fuente);
+}
+
+h1,h2,h3,h3 {
+	font-weight: bold;
+}
+
+h1 {
+	a {
+		text-decoration: none;
+		color: white;
+	}
+}
+
+.btn {
+	font-family: map-get($estilo, fuente);
+	font-weight: bold;
+}
+
+.card {
+	border-radius: 5%;
+	background-color: $color-light;
+}
+
+@media only screen and (max-width: 768px){
+	.cardSpace {
+		margin-bottom: 5%;
+	}
+}
+
+/*==========================================--*/
+/*--MENSAJE BIENVENIDA GENERAL--*/
+/*--======================================--*/
+@media only screen and (max-width: 768px){
+	main {
+		margin: 5%;
+		h1 {
+			font-weight: bold;
+			font-size: 2rem;
+			margin-top: 15%;
+		}
+		p {
+			display: none;
+		}
+	}	
+}
+
+@media only screen and (min-width: 1024px){
+	main {
+		margin: 15%;
+		h1 {
+			font-family: map-get($estilo, fuente);
+			font-weight: map-get($estilo, f-weight);
+			font-size: 2rem;	
+		}
+		p {
+			width: 55%;
+		 	font-size: 1rem;
+			margin-top: 3%;
+		}
+	}
+}
+
+/*--========================================--*/
+/*--CIERRE MENSAJE BIENVENIDA GENERAL--*/
+/*--========================================--*/

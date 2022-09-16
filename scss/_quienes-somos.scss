@@ -1,0 +1,62 @@
+.quienesIntroP {
+	display: inline;
+}
+
+.presOwner1 {
+	background-color: #e6dead;
+	border-radius: 4%;
+	width: 95%;
+}
+
+.presOwner2 {
+	@extend .presOwner1
+}
+
+.video {
+	iframe {
+		width: 100%;
+		border-radius: 5%;
+	}
+} 
+
+.textVideo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+@media only screen and (min-width: 1024px){
+	
+	.presOwner1 {
+		background-color: #e6dead;
+		border-radius: map-get($estilo, border-desk);
+		width: 50%;
+	}
+
+	.presOwner2 {
+		background-color: #e6dead;
+		border-radius: map-get($estilo, border-desk);
+		width: 50%;
+	}
+
+	.contVideoText {
+		display: flex;
+		justify-content: center;
+		.rowVideoText {
+			width: 50%;
+			background-color: #c5b475;
+			border-radius: map-get($estilo, border-desk);
+		}
+	}
+
+	.video {
+		display: flex;
+		justify-content: flex-end;
+		margin-top: 10%;
+		iframe {
+			width: 100%;
+			border-radius: map-get($estilo, border-desk);
+		}
+	}
+}

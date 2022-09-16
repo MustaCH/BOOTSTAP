@@ -1,0 +1,54 @@
+.form-label,.form-control{
+	font-family: map-get($estilo, fuente);
+	font-weight: map-get($estilo, f-weight);
+	color: white;
+}
+
+.form-check-label {
+	font-family: map-get($estilo, fuente);
+	color: white;
+}
+
+.row-form {
+	width: 100%;
+}
+
+.contactStyle {
+	h2 {
+		text-align: center;
+		color: #fdfdeb;
+		font-size: 1.5rem;
+		padding-top: 3%;
+		padding-bottom: 3%;
+	}
+}	
+
+@media only screen and (min-width: 1024px){
+
+	.form-label,.form-control{
+		font-family: map-get($estilo, fuente);
+		font-weight: map-get($estilo, f-weight);
+		color: white;
+		width: 100%;
+	}
+
+	.form-check-label {
+		font-family: map-get($estilo, fuente);
+		color: white;
+	}
+
+
+	.row-form {
+		width: 35%;
+	}
+
+	.contactStyle {
+		h2 {
+			text-align: center;
+			color: #fdfdeb;
+			font-size: 1.5rem;
+			padding-top: 3%;
+			padding-bottom: 3%;
+		}
+	}	
+}

@@ -1,0 +1,152 @@
+/*--======================================--*/
+/*--CAROUSEL INDEX--*/
+/*--======================================--*/
+
+.productTit {
+	text-align: center;
+	font-weight: bold;
+	.text-white {
+		text-decoration: none;
+		transition: all;
+		&:hover {
+			transform: scale(1.1,1.1);
+		}
+	}
+	a {
+		text-decoration: none;
+		color: white;
+	}
+}
+
+
+@media only screen and (min-width: 1024px){
+	.productTit {
+		text-align: center;
+		font-weight: bold;
+		margin-top: 3%;
+		.text-white {
+			transition: all .5s;
+			&:hover {
+				transform: scale(1.1,1.1);
+			}
+		}
+		a {
+			text-decoration: none;
+			color: white;
+		}
+	}
+
+	.carousel-product {
+		display: flex;
+		justify-content: center;
+		#carouselExampleControls {
+			width: 55%;
+		}
+	}
+}
+
+/*--======================================--*/
+/*--CIERRE CAROUSEL INDEX--*/
+/*--======================================--*/
+/*--QUIENES SOMOS INDEX--*/
+/*--======================================--*/
+
+@media only screen and (max-width: 768px){
+	
+	.quienes-somos {
+		background-color: $color-light;
+		.quienes-text {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			a {
+				text-decoration: none;
+				color: black;
+			}
+		}
+		.quienes-img {
+			img {
+				width: 100%;
+				margin-bottom: 5%;
+			}	
+		}
+	}
+}
+
+@media only screen and (min-width: 1024px){
+	
+	.quienes-somos {
+		article {
+			background-color: $color-light;
+			margin: 0% 10% 0% 10%;
+			border-radius: 2%;
+			.quienes-text {
+				display: flex;
+				flex-direction: column;
+				align-items: flex-end;
+				text-align: right;
+				padding: 3% 1% 3% 5%;
+				h2 {
+					transition: all .5s;
+					&:hover {
+						transform: scale(1.1,1.1);
+					}
+				}
+				a {
+					text-decoration: none;
+					font-weight: map-get($estilo, f-weight);
+					color: black;
+				}
+			}
+			.quienes-img {
+				img{
+					width: 80%;
+					margin: 10% 5% 10% 2%;
+				}
+			}
+		}
+	}	
+}	
+
+/*--======================================--*/
+/*--CIERRE QUIENES SOMOS INDEX--*/
+/*--======================================--*/
+/*--CONTACTO INDEX*/
+/*========================================--*/
+
+.contactStyle {
+	#contactIndex {
+		text-align: center;
+		color: #fdfdeb;
+		font-size: 1.5rem;
+		padding-top: 3%;
+		padding-bottom: 3%;
+		transition: all .5s;
+		&:hover {
+			transform: scale(1.1,1.1);
+			cursor: pointer;
+		}
+	}
+	a {
+		text-decoration: none;
+	}
+}
+
+.contactImg {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 2% 8% 2% 8%;
+	img {
+		transition: all 1s;
+		&:hover {
+			transform: scale(1.1,1.1);
+		}
+	}
+}
+
+/*--======================================--*/
+/*--CIERRE CONTACTO INDEX*/
+/*========================================--*/
+
