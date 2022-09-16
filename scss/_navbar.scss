@@ -5,20 +5,19 @@
 	}
 	.navbar-nav {
 		li {
+			transition: all .5s;
 			a {
-		font-family: map-get($estilo, fuente);
-		font-weight: bold;
+			font-family: map-get($estilo, fuente);
+			font-weight: bold;
+			}
+			&:hover {
+				transform: scale(1.1,1.1);
+			}
 		}
 	}
 	.navbar-toggler {
 	color: white;
-	}
-	nav ul li {
-	transition: all .5s;
-		&:hover {
-			transform: scale(1.1,1.1);
-		}
-	}
+	}	
 }
 
 @media only screen and (min-width: 1024px){
@@ -37,5 +36,4 @@
 			width: 12.5%;
 		}	
 	}
-}
 }
